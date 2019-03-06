@@ -36,7 +36,6 @@ cv2.imwrite('sobel_h.jpg', sobelh_image)
 sobelv_image = cv2.Sobel(median_image,cv2.CV_64F,0,1,ksize=5)
 cv2.imwrite('sobel_v.jpg', sobelv_image)
 
-jjj
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
